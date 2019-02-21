@@ -1,0 +1,68 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+header.startup {
+	background-position: center;
+	background-image: url(../images/header2.jpg);
+	background-size: cover;
+	height: 100%;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-height: 100%;
+}
+
+.headline {
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.btn {
+		position: relative;
+		top: 30px;
+		background-color: #FF4F4F;
+		border: 1px solid #FF4F4F;
+	}
+}
+
+.btn {
+	position: relative;
+	top: 200px;
+	background-color: #FF4F4F;
+	border: 1px solid #FF4F4F;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+}
+
+
+.btn:hover {
+	background-color: #FF9090;
+	border: 1px solid #FF4F4F;
+}
+
+.btn-xl {
+	padding:1rem 2rem;
+}
+
+.btn:visited {
+	background-color: #FF9090;
+	border: 1px solid #FF4F4F;
+}
+
+.btn:active {
+	background-color: #FF9090;
+	border: 1px solid #FF4F4F;
+}
